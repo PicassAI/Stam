@@ -1,0 +1,37 @@
+body {
+  height:auto;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: 0;
+  overflow: hidden;
+}
+path {
+  fill: none;
+  stroke: #000; 
+  stroke-width:2;  
+}
+text {
+  fill:#fff;  
+  text-shadow:1px 1px 1px #000;
+  pointer-events: none;
+  font-family: 'Playfair Display', serif;
+  text-decoration: none;
+}
+#main_bx{width:98%; height:auto; background-color:burlywood; left:1%; top:16%; bottom:1%; position:absolute; overflow-y:auto; overflow-x:auto;font-size: 15px;}
+#main_bx::-webkit-scrollbar{width:5px;height:5px; border-radius:5px;}
+#main_bx::-webkit-scrollbar-thumb{background:linear-gradient(blue,#ff0036); border-radius:5px;}
+#main_bx::-webkit-scrollbar:horizontal{height:5px;}
+#main_bx::-webkit-scrollbar-thumb:horizontal{background:linear-gradient(to right, blue,#ff0036); border-radius:5px;}
+#main_bx:hover::-webkit-scrollbar{height:12px;width:12px; border-radius:5px;} 
+.d2{height:300px;width:100%;background:blue;}
+ h1{text-align:center;}
+    .canvas{border:1px solid #000;}
+    rect{fill:grey;
+    stroke:white;
+    stroke-width:1;
+    box-shadow: 0 5px 5px rgba(0,0,0,.5);
+    border-radius: 5px;
+    cursor:pointer;}
